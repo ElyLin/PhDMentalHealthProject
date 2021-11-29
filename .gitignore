@@ -145,3 +145,6 @@ data.xlsx
 data.csv
 Questions.docx
 analysis_from_conductor.pdf
+
+# Catboost files
+catboost_info/
