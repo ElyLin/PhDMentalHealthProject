@@ -142,8 +142,10 @@ cython_debug/
 
 # Data files
 data.xlsx
+~$data.xlsx
 data.csv
 Questions.docx
+~$Questions.docx
 analysis_from_conductor.pdf
 
 # Catboost files
