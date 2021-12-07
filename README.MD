@@ -64,7 +64,7 @@ Inferential model points to bullying as the most important factor that contribut
 
 Predictive model is able to achieve around 70% accuracy on both training data and testing data. Recall score is around 43%. To put that in context, according to Stanford's [statistics](https://irds.stanford.edu/data-findings/doctoral-degree-programs-enrollment-and-demographics), there are 4720 new PhD students enrolled in 2021. Even though our model's predictive power is limited, it's going to be able to pick out 43% of the 36% of students who needs help with anxiety and depression, that's 730 new students who gets the attention and care they need early instead of suffering in silence. 
 
-![Confusion Matrix](image/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ## Presentation
 <a href="https://docs.google.com/presentation/d/1UEKWW3QcD-FXXRJHVrvEuB2qyd0orh3KD_VkhHripcQ/edit#slide=id.g1053504a4ff_0_865">Link to Google Slides</a>
