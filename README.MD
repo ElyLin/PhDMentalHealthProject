@@ -11,52 +11,52 @@ We are modeling on the assumption that if students need help with anxiety and/or
 
 data source: https://figshare.com/s/74a5ea79d76ad66a8af8?file=18543320
 
-Exploratory data analysis was done by the original survey conductor and can be found [here](<a href="https://figshare.com/s/74a5ea79d76ad66a8af8?file=18543281">).
+Exploratory data analysis was done by the original survey conductor and can be found [here](https://figshare.com/s/74a5ea79d76ad66a8af8?file=18543281).
 
 data instruction:
 - go to data source page
 - click on file Nature_PhD survey_Anon_v1.xlsx
 - download file
-- open file with windows excel
+- open file with Windows Excel
 - save file as 'data.csv' to your local git repository cloned down from this page
 - run the jupyter notebook
 
 ## Methodology
 Target:
-    "Have you ever sought help for anxiety or depression caused by PhD study?"
-    60% Yes
-    36% No
-    4%  Prefer not to say
+- "Have you ever sought help for anxiety or depression caused by PhD study?"
+    - 60% Yes
+    - 36% No
+    - 4%  Prefer not to say
 
-    The problem is a binary classification. There are only 4% "prefer not to say" so it's safe to drop them.
+- The problem is a binary classification. There are only 4% "prefer not to say" so it's safe to drop them.
 
 Inferential Modeling:
-    features: 
-        whether the student is pursuing dual-degree, 
-        whether the student is studying in his or her home country
-        whether the student has an outside job
-        whether the student is bullied
-        whether the student faces discrimination or harrassment
-        how many hours the student works in a week
-        the student's gender
-        the student's age
-        how long the students expect to be unemployed after they complete their degree
-    models: 
-        logistic regression
-        decision tree
+- features: 
+    - whether the student is pursuing dual-degree 
+    - whether the student is studying in his or her home country 
+    - whether the student has an outside job 
+    - whether the student is bullied 
+    - whether the student faces discrimination or harrassment 
+    - how many hours the student works in a week 
+    - the student's gender 
+    - the student's age 
+    - how long the students expect to be unemployed after they complete their degree 
+- models: 
+    - logistic regression 
+    - decision tree 
 
-Predictive Modeling:
-    features: 
-        all survey questions except target
-    model:
-        catboost
+Predictive Modeling: 
+- features: 
+  - all survey questions except target
+- model:
+  - catboost
 
 ## Data Limitations
 Bias: 
-Skewed towards overrepresented classes, notably Caucasian students
+- Skewed towards overrepresented classes, notably Caucasian students
 
 Target:
-Assume people who needs help would ask. Even though it would vastly underestimate the number of people who need help, it is the best metric we have now.
+- Assume people who needs help would ask. Even though it would vastly underestimate the number of people who need help, it is the best metric we have now.
 
 
 ## Model Result
