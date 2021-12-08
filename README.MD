@@ -2,7 +2,7 @@
 ![PhD Mental Health](https://steemitimages.com/DQmSvy1C8BaSreRGnrJcL9qaAEn7cfCgPgcMq6f87Cwg1nQ/Capture.PNG)
 
 ## Project Overview
-This notebook contains analysis of survey data conducted by Shift Learning on PhD students. The project uses multiple machine learning models such as logistic regression, decision trees, naive bayes and catboost to draw insights into what risk factors contribute to mental health problems in PhD students and make recommendations on how to improve.
+This notebook contains analysis of survey data conducted by Shift Learning on PhD students. The project uses multiple machine learning models such as logistic regression, decision trees and catboost to draw insights into what risk factors contribute to mental health problems in PhD students and make recommendations on how to improve.
 
 ## Data Overview
 The data is aggregated by surveying and interviewing current PhD students all over the world in 2019. There are 56 questions about their personal information and their opinions and concerns about their PhD program. Important questions include age, country of origin, country of study, whether/by whom they were bullied, whether/reason they need to work outside of their program, whether/which kind of discrimination the student faced, their career expectations, worries about the program/their future, etc.
