@@ -24,9 +24,7 @@ data instruction:
 ## Methodology
 Target:
 - "Have you ever sought help for anxiety or depression caused by PhD study?"
-    - 60% Yes
-    - 36% No
-    - 4%  Prefer not to say
+![Target](images/target.png)
 
 - The problem is a binary classification. There are only 4% "prefer not to say" so it's safe to drop them.
 
@@ -54,6 +52,7 @@ Predictive Modeling:
 ## Data Limitations
 Bias: 
 - Skewed towards overrepresented classes, notably Caucasian students
+![Demographic](images/demographic.png)
 
 Target:
 - Assume people who needs help would ask. Even though it would vastly underestimate the number of people who need help, it is the best metric we have now.
